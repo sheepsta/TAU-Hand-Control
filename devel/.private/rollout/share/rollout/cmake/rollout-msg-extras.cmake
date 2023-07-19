@@ -1,0 +1,2 @@
+set(rollout_MESSAGE_FILES "")
+set(rollout_SERVICE_FILES "/home/curtisbot/catkin_ws/src/rollout/srv/rolloutReq.srv;/home/curtisbot/catkin_ws/src/rollout/srv/rolloutReqMod.srv;/home/curtisbot/catkin_ws/src/rollout/srv/rolloutReqFile.srv;/home/curtisbot/catkin_ws/src/rollout/srv/plotReq.srv;/home/curtisbot/catkin_ws/src/rollout/srv/TargetAngles.srv;/home/curtisbot/catkin_ws/src/rollout/srv/IsDropped.srv;/home/curtisbot/catkin_ws/src/rollout/srv/observation.srv;/home/curtisbot/catkin_ws/src/rollout/srv/MoveServos.srv;/home/curtisbot/catkin_ws/src/rollout/srv/gets.srv")

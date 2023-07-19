@@ -1,0 +1,1 @@
+/home/curtisbot/catkin_ws/devel/.private/hand_control/lib/python2.7/dist-packages/hand_control/msg/__init__.py

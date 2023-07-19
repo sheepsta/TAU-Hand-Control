@@ -1,0 +1,1 @@
+/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/ReadCurrent.l

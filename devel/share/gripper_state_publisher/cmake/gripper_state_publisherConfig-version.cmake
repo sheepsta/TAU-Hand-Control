@@ -1,0 +1,1 @@
+/home/curtisbot/catkin_ws/devel/.private/gripper_state_publisher/share/gripper_state_publisher/cmake/gripper_state_publisherConfig-version.cmake

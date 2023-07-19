@@ -1,0 +1,8 @@
+prefix=/home/curtisbot/catkin_ws/devel/.private/gripper_state_publisher
+
+Name: gripper_state_publisher
+Description: Description of gripper_state_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/curtisbot/catkin_ws/devel/.private/gripper_state_publisher/lib/pkgconfig/gripper_state_publisher.pc
