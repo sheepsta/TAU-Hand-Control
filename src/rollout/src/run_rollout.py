@@ -179,7 +179,6 @@ if rollout:
         resp = rollout_srv(Af)
         A = np.array(resp.actions).reshape(-1, action_dim)
         S = np.array(resp.states).reshape(-1, state_dim)
-        print(S)
         S[:, :2] = A
         S = np.delete(S, (2), axis=1)
         NS = np.array(resp.next_states).reshape(-1, state_dim)
@@ -240,7 +239,6 @@ if rollout:
 
         file_name = prefix + str(z)
         print(file_name)
-        print(S)
         np.save(logdir + '/' + file_name + '.npy', S)
 
         # if save_graph:

@@ -50,6 +50,14 @@ import numpy.random as rnd
 import numpy as np
 import matplotlib as mpl
 from math import isnan
+import numpy as np
+import matplotlib.pyplot as plt
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv1D, MaxPooling1D, Flatten, Dense
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.regularizers import l1
+from tensorflow.keras.layers import Dropout
+
 
 display_images = True
 display_prediction = True
@@ -184,6 +192,27 @@ class rolloutRecorder():
         else:
             self.rate = rospy.Rate(12)  # 2hz
 
+
+        def build_complex_model(regularization_strength):
+            model = Sequential([
+                Conv1D(32, kernel_size=5, activation='relu', input_shape=(subsequence_length, 6)),
+                MaxPooling1D(pool_size=2),
+                Conv1D(64, kernel_size=5, activation='relu'),
+                MaxPooling1D(pool_size=2),
+                Conv1D(128, kernel_size=5, activation='relu'),
+                MaxPooling1D(pool_size=2),
+                Flatten(),
+                Dense(256, activation='relu', kernel_regularizer=l1(regularization_strength)),
+                Dropout(0.5),
+                Dense(128, activation='relu', kernel_regularizer=l1(regularization_strength)),
+                Dropout(0.5),
+                Dense(5, activation='softmax', kernel_regularizer=l1(regularization_strength))
+            ])
+
+            # Compile the model
+            model.compile(optimizer=Adam(learning_rate=0.001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+            return model
+        
         while not rospy.is_shutdown():
 
             if True: #if self.running and not self.drop and self.grasped:
