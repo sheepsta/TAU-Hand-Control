@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/rollout/share/roseus/ros/rollout/manifest.l
+/home/julius/TAU-Hand-Control/devel/.private/rollout/share/roseus/ros/rollout/manifest.l

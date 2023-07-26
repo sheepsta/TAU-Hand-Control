@@ -43,100 +43,100 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/curtisbot/catkin_ws/src/openhand_node
+CMAKE_SOURCE_DIR = /home/julius/TAU-Hand-Control/src/openhand_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/curtisbot/catkin_ws/build/openhand_node
+CMAKE_BINARY_DIR = /home/julius/TAU-Hand-Control/build/openhand_node
 
 # Utility rule file for openhand_node_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include CMakeFiles/openhand_node_generate_messages_cpp.dir/progress.make
 
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServos.h
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoad.h
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServos.h
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensors.h
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServos.h
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingMode.h
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h
-CMakeFiles/openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServos.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadSensors.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/OperatingMode.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/HoldServos.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadLoad.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadServos.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/TorqueServos.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h
+CMakeFiles/openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/MoveServos.h
 
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServos.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServos.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServos.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServos.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from openhand_node/HoldServos.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadSensors.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadSensors.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadSensors.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadSensors.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from openhand_node/ReadSensors.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoad.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoad.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoad.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoad.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from openhand_node/ReadLoad.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/OperatingMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/OperatingMode.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/OperatingMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/OperatingMode.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from openhand_node/OperatingMode.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServos.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServos.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServos.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServos.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from openhand_node/TorqueServos.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/HoldServos.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/HoldServos.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/HoldServos.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/HoldServos.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from openhand_node/HoldServos.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensors.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensors.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensors.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensors.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from openhand_node/ReadSensors.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadLoad.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadLoad.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadLoad.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadLoad.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from openhand_node/ReadLoad.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServos.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServos.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServos.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServos.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from openhand_node/MoveServos.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadServos.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadServos.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadServos.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadServos.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from openhand_node/ReadServos.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from openhand_node/ReadCurrent.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from openhand_node/ReadTemperature.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingMode.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingMode.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingMode.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingMode.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from openhand_node/OperatingMode.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/TorqueServos.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/TorqueServos.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/TorqueServos.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/TorqueServos.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from openhand_node/TorqueServos.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from openhand_node/ReadTemperature.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from openhand_node/ReadCurrent.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServos.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServos.h: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServos.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServos.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from openhand_node/ReadServos.srv"
-	cd /home/curtisbot/catkin_ws/src/openhand_node && /home/curtisbot/catkin_ws/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/MoveServos.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/MoveServos.h: /home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/MoveServos.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/MoveServos.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from openhand_node/MoveServos.srv"
+	cd /home/julius/TAU-Hand-Control/src/openhand_node && /home/julius/TAU-Hand-Control/build/openhand_node/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node -e /opt/ros/melodic/share/gencpp/cmake/..
 
 openhand_node_generate_messages_cpp: CMakeFiles/openhand_node_generate_messages_cpp
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServos.h
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoad.h
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServos.h
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensors.h
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServos.h
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingMode.h
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h
-openhand_node_generate_messages_cpp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServos.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadSensors.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/OperatingMode.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/HoldServos.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadLoad.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadServos.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/TorqueServos.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h
+openhand_node_generate_messages_cpp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/MoveServos.h
 openhand_node_generate_messages_cpp: CMakeFiles/openhand_node_generate_messages_cpp.dir/build.make
 
 .PHONY : openhand_node_generate_messages_cpp
@@ -151,6 +151,6 @@ CMakeFiles/openhand_node_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/openhand_node_generate_messages_cpp.dir/clean
 
 CMakeFiles/openhand_node_generate_messages_cpp.dir/depend:
-	cd /home/curtisbot/catkin_ws/build/openhand_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/curtisbot/catkin_ws/src/openhand_node /home/curtisbot/catkin_ws/src/openhand_node /home/curtisbot/catkin_ws/build/openhand_node /home/curtisbot/catkin_ws/build/openhand_node /home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles/openhand_node_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/julius/TAU-Hand-Control/build/openhand_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julius/TAU-Hand-Control/src/openhand_node /home/julius/TAU-Hand-Control/src/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles/openhand_node_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openhand_node_generate_messages_cpp.dir/depend
 

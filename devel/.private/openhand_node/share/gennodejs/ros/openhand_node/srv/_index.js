@@ -1,24 +1,24 @@
 
 "use strict";
 
-let MoveServos = require('./MoveServos.js')
 let OperatingMode = require('./OperatingMode.js')
-let ReadTemperature = require('./ReadTemperature.js')
-let HoldServos = require('./HoldServos.js')
-let TorqueServos = require('./TorqueServos.js')
 let ReadLoad = require('./ReadLoad.js')
-let ReadSensors = require('./ReadSensors.js')
 let ReadServos = require('./ReadServos.js')
+let HoldServos = require('./HoldServos.js')
+let MoveServos = require('./MoveServos.js')
+let ReadSensors = require('./ReadSensors.js')
 let ReadCurrent = require('./ReadCurrent.js')
+let ReadTemperature = require('./ReadTemperature.js')
+let TorqueServos = require('./TorqueServos.js')
 
 module.exports = {
-  MoveServos: MoveServos,
   OperatingMode: OperatingMode,
-  ReadTemperature: ReadTemperature,
-  HoldServos: HoldServos,
-  TorqueServos: TorqueServos,
   ReadLoad: ReadLoad,
-  ReadSensors: ReadSensors,
   ReadServos: ReadServos,
+  HoldServos: HoldServos,
+  MoveServos: MoveServos,
+  ReadSensors: ReadSensors,
   ReadCurrent: ReadCurrent,
+  ReadTemperature: ReadTemperature,
+  TorqueServos: TorqueServos,
 };

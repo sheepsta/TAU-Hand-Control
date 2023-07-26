@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -33,7 +33,7 @@ struct ReadLoadResponse_
 
 
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _load_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _load_type;
   _load_type load;
 
 

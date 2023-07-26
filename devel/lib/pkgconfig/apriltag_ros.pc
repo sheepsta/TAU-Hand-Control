@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/apriltag_ros/lib/pkgconfig/apriltag_ros.pc
+/home/julius/TAU-Hand-Control/devel/.private/apriltag_ros/lib/pkgconfig/apriltag_ros.pc

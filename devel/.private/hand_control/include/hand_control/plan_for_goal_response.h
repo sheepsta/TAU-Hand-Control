@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -37,10 +37,10 @@ struct plan_for_goal_response_
 
 
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _planned_actions_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _planned_actions_type;
   _planned_actions_type planned_actions;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _planned_path_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _planned_path_type;
   _planned_path_type planned_path;
 
    typedef uint8_t _reached_goal_type;

@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.bash
+/home/julius/TAU-Hand-Control/devel/.private/catkin_tools_prebuild/local_setup.bash

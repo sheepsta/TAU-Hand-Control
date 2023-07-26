@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetection.lisp
+/home/julius/TAU-Hand-Control/devel/.private/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetection.lisp

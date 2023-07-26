@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -35,10 +35,10 @@ struct ReadSensorsResponse_
 
 
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _force_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _force_type;
   _force_type force;
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _flex_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _flex_type;
   _flex_type flex;
 
 

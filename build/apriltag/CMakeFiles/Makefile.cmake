@@ -12,8 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
-  "/home/curtisbot/catkin_ws/src/apriltag/CMake/apriltagConfig.cmake.in"
-  "/home/curtisbot/catkin_ws/src/apriltag/CMakeLists.txt"
+  "/home/julius/TAU-Hand-Control/src/apriltag/CMake/apriltagConfig.cmake.in"
+  "/home/julius/TAU-Hand-Control/src/apriltag/CMakeLists.txt"
   "/usr/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/share/OpenCV/OpenCVConfig.cmake"
   "/usr/share/OpenCV/OpenCVModules-release.cmake"
@@ -137,8 +137,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/apriltag_python.dir/DependInfo.cmake"
-  "CMakeFiles/apriltag.dir/DependInfo.cmake"
   "CMakeFiles/apriltag_demo.dir/DependInfo.cmake"
+  "CMakeFiles/apriltag.dir/DependInfo.cmake"
   "CMakeFiles/opencv_demo.dir/DependInfo.cmake"
   )

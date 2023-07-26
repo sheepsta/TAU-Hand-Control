@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/rollout/share/gennodejs/ros/rollout/_index.js
+/home/julius/TAU-Hand-Control/devel/.private/rollout/share/gennodejs/ros/rollout/_index.js

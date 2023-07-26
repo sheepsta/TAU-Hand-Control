@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/curtisbot/catkin_ws/src/openhand_node
+CMAKE_SOURCE_DIR = /home/julius/TAU-Hand-Control/src/openhand_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/curtisbot/catkin_ws/build/openhand_node
+CMAKE_BINARY_DIR = /home/julius/TAU-Hand-Control/build/openhand_node
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles /home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles /home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -480,19 +480,6 @@ _openhand_node_generate_messages_check_deps_ReadServos/fast:
 .PHONY : _openhand_node_generate_messages_check_deps_ReadServos/fast
 
 #=============================================================================
-# Target rules for targets named _openhand_node_generate_messages_check_deps_ReadCurrent
-
-# Build rule for target.
-_openhand_node_generate_messages_check_deps_ReadCurrent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _openhand_node_generate_messages_check_deps_ReadCurrent
-.PHONY : _openhand_node_generate_messages_check_deps_ReadCurrent
-
-# fast build rule for target.
-_openhand_node_generate_messages_check_deps_ReadCurrent/fast:
-	$(MAKE) -f CMakeFiles/_openhand_node_generate_messages_check_deps_ReadCurrent.dir/build.make CMakeFiles/_openhand_node_generate_messages_check_deps_ReadCurrent.dir/build
-.PHONY : _openhand_node_generate_messages_check_deps_ReadCurrent/fast
-
-#=============================================================================
 # Target rules for targets named _openhand_node_generate_messages_check_deps_TorqueServos
 
 # Build rule for target.
@@ -504,6 +491,19 @@ _openhand_node_generate_messages_check_deps_TorqueServos: cmake_check_build_syst
 _openhand_node_generate_messages_check_deps_TorqueServos/fast:
 	$(MAKE) -f CMakeFiles/_openhand_node_generate_messages_check_deps_TorqueServos.dir/build.make CMakeFiles/_openhand_node_generate_messages_check_deps_TorqueServos.dir/build
 .PHONY : _openhand_node_generate_messages_check_deps_TorqueServos/fast
+
+#=============================================================================
+# Target rules for targets named _openhand_node_generate_messages_check_deps_ReadCurrent
+
+# Build rule for target.
+_openhand_node_generate_messages_check_deps_ReadCurrent: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _openhand_node_generate_messages_check_deps_ReadCurrent
+.PHONY : _openhand_node_generate_messages_check_deps_ReadCurrent
+
+# fast build rule for target.
+_openhand_node_generate_messages_check_deps_ReadCurrent/fast:
+	$(MAKE) -f CMakeFiles/_openhand_node_generate_messages_check_deps_ReadCurrent.dir/build.make CMakeFiles/_openhand_node_generate_messages_check_deps_ReadCurrent.dir/build
+.PHONY : _openhand_node_generate_messages_check_deps_ReadCurrent/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -594,8 +594,8 @@ help:
 	@echo "... run_tests"
 	@echo "... _openhand_node_generate_messages_check_deps_ReadLoad"
 	@echo "... _openhand_node_generate_messages_check_deps_ReadServos"
-	@echo "... _openhand_node_generate_messages_check_deps_ReadCurrent"
 	@echo "... _openhand_node_generate_messages_check_deps_TorqueServos"
+	@echo "... _openhand_node_generate_messages_check_deps_ReadCurrent"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

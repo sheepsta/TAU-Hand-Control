@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -35,10 +35,10 @@ struct planrollRequest_
 
 
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _goal_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _goal_type;
   _goal_type goal;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _planning_algorithm_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _planning_algorithm_type;
   _planning_algorithm_type planning_algorithm;
 
 
@@ -199,7 +199,7 @@ struct Printer< ::hand_control::planrollRequest_<ContainerAllocator> >
       Printer<float>::stream(s, indent + "  ", v.goal[i]);
     }
     s << indent << "planning_algorithm: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.planning_algorithm);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.planning_algorithm);
   }
 };
 

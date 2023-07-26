@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/curtisbot/catkin_ws/src/apriltag/example/opencv_demo.cc" "/home/curtisbot/catkin_ws/build/apriltag/CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o"
+  "/home/julius/TAU-Hand-Control/src/apriltag/example/opencv_demo.cc" "/home/julius/TAU-Hand-Control/build/apriltag/CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/curtisbot/catkin_ws/src/apriltag"
+  "/home/julius/TAU-Hand-Control/src/apriltag"
   "/apriltag"
   "/usr/include/opencv"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/curtisbot/catkin_ws/build/apriltag/CMakeFiles/apriltag.dir/DependInfo.cmake"
+  "/home/julius/TAU-Hand-Control/build/apriltag/CMakeFiles/apriltag.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

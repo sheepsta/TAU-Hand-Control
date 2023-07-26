@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -41,19 +41,19 @@ struct rolloutReqResponse_
 
 
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _states_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _states_type;
   _states_type states;
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _actions_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _actions_type;
   _actions_type actions;
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _time_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _time_type;
   _time_type time;
 
    typedef uint8_t _success_type;
   _success_type success;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _reason_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _reason_type;
   _reason_type reason;
 
 
@@ -237,7 +237,7 @@ struct Printer< ::rollout::rolloutReqResponse_<ContainerAllocator> >
     s << indent << "success: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.success);
     s << indent << "reason: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.reason);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.reason);
   }
 };
 

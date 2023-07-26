@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/openhand_node/cmake/openhand_nodeConfig.cmake
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/openhand_node/cmake/openhand_nodeConfig.cmake

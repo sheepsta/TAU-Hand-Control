@@ -4,11 +4,11 @@
 Author:  Osher Azulay
 '''
 
-from tensorflow.keras.layers import Dropout
-from tensorflow.keras.regularizers import l1
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.layers import Conv1D, MaxPooling1D, Flatten, Dense
-from tensorflow.keras.models import Sequential
+# from tensorflow.keras.layers import Dropout
+# from tensorflow.keras.regularizers import l1
+# from tensorflow.keras.optimizers import Adam
+# from tensorflow.keras.layers import Conv1D, MaxPooling1D, Flatten, Dense
+# from tensorflow.keras.models import Sequential
 from scipy.signal import butter, filtfilt
 from math import isnan
 from matplotlib.collections import PatchCollection
@@ -49,7 +49,7 @@ np.set_printoptions(2)
 
 
 display_images = True
-display_prediction = True
+display_prediction = False
 display_obs = False
 record = False
 display_gt = True
@@ -194,58 +194,58 @@ class rolloutRecorder():
             self.rate = rospy.Rate(12)  # 2hz
 
 # ************************************************************************************************
-        # build classification model
-        subsequence_length = 50
+        # # build classification model
+        # subsequence_length = 50
 
-        def build_complex_model(regularization_strength):
-            model = Sequential([
-                Conv1D(32, kernel_size=5, activation='relu',
-                       input_shape=(subsequence_length, 6)),
-                MaxPooling1D(pool_size=2),
-                Conv1D(64, kernel_size=5, activation='relu'),
-                MaxPooling1D(pool_size=2),
-                Conv1D(128, kernel_size=5, activation='relu'),
-                MaxPooling1D(pool_size=2),
-                Flatten(),
-                Dense(256, activation='relu', kernel_regularizer=l1(
-                    regularization_strength)),
-                Dropout(0.5),
-                Dense(128, activation='relu', kernel_regularizer=l1(
-                    regularization_strength)),
-                Dropout(0.5),
-                Dense(5, activation='softmax',
-                      kernel_regularizer=l1(regularization_strength))
-            ])
+        # def build_complex_model(regularization_strength):
+        #     model = Sequential([
+        #         Conv1D(32, kernel_size=5, activation='relu',
+        #                input_shape=(subsequence_length, 6)),
+        #         MaxPooling1D(pool_size=2),
+        #         Conv1D(64, kernel_size=5, activation='relu'),
+        #         MaxPooling1D(pool_size=2),
+        #         Conv1D(128, kernel_size=5, activation='relu'),
+        #         MaxPooling1D(pool_size=2),
+        #         Flatten(),
+        #         Dense(256, activation='relu', kernel_regularizer=l1(
+        #             regularization_strength)),
+        #         Dropout(0.5),
+        #         Dense(128, activation='relu', kernel_regularizer=l1(
+        #             regularization_strength)),
+        #         Dropout(0.5),
+        #         Dense(5, activation='softmax',
+        #               kernel_regularizer=l1(regularization_strength))
+        #     ])
 
-            # Compile the model
-            model.compile(optimizer=Adam(learning_rate=0.001),
-                          loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-            return model
-        self.model = build_complex_model(.0001)
-        self.model.load_weights('subsequence50.h5')
+        #     # Compile the model
+        #     model.compile(optimizer=Adam(learning_rate=0.001),
+        #                   loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+        #     return model
+        # self.model = build_complex_model(.0001)
+        # self.model.load_weights('subsequence50.h5')
 
-        def preprocess_input(matrix):
-            subsequence_length = 50
-            length = matrix.shape[0]
-            matrix = matrix[length-subsequence_length:length, :]
-            if np.isnan(matrix).any():
-                return "NaN values found in the array. Cannot classify yet."
+        # def preprocess_input(matrix):
+        #     subsequence_length = 50
+        #     length = matrix.shape[0]
+        #     matrix = matrix[length-subsequence_length:length, :]
+        #     if np.isnan(matrix).any():
+        #         return "NaN values found in the array. Cannot classify yet."
 
-            def adjust_for_starting_position(matrix):
-                adjusted_data = []
-                first_row = matrix[0]
-                adjusted_matrix = matrix - first_row
-                return adjusted_matrix
+        #     def adjust_for_starting_position(matrix):
+        #         adjusted_data = []
+        #         first_row = matrix[0]
+        #         adjusted_matrix = matrix - first_row
+        #         return adjusted_matrix
 
-            def apply_low_pass_filter(matrix):
-                # Apply a low-pass filter to the matrix
-                b, a = butter(5, 0.1, btype='lowpass', analog=False)
-                filtered_matrix = filtfilt(b, a, matrix, axis=0)
-                return filtered_matrix
+        #     def apply_low_pass_filter(matrix):
+        #         # Apply a low-pass filter to the matrix
+        #         b, a = butter(5, 0.1, btype='lowpass', analog=False)
+        #         filtered_matrix = filtfilt(b, a, matrix, axis=0)
+        #         return filtered_matrix
 
-            matrix = adjust_for_starting_position(matrix)
-            matrix = apply_low_pass_filter(matrix)
-            return matrix
+        #     matrix = adjust_for_starting_position(matrix)
+        #     matrix = apply_low_pass_filter(matrix)
+        #     return matrix
 # ************************************************************************************************
 
         while not rospy.is_shutdown():

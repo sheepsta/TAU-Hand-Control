@@ -1,0 +1,15 @@
+[  0%] Built target _openhand_node_generate_messages_check_deps_MoveServos
+[  0%] Built target _openhand_node_generate_messages_check_deps_HoldServos
+[  0%] Built target _openhand_node_generate_messages_check_deps_TorqueServos
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadLoad
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadCurrent
+[  0%] Built target _openhand_node_generate_messages_check_deps_OperatingMode
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadTemperature
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadSensors
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadServos
+[ 36%] Built target openhand_node_generate_messages_cpp
+[ 40%] Built target openhand_node_generate_messages_eus
+[ 80%] Built target openhand_node_generate_messages_nodejs
+[ 80%] Built target openhand_node_generate_messages_py
+[100%] Built target openhand_node_generate_messages_lisp
+[100%] Built target openhand_node_generate_messages

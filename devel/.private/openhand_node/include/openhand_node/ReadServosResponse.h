@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -37,13 +37,13 @@ struct ReadServosResponse_
 
 
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _pos_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _pos_type;
   _pos_type pos;
 
-   typedef std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other >  _enc_type;
+   typedef std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> _enc_type;
   _enc_type enc;
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _ref_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _ref_type;
   _ref_type ref;
 
 

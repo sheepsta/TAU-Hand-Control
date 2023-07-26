@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/include/hand_control/TargetAnglesResponse.h
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/include/hand_control/TargetAnglesResponse.h

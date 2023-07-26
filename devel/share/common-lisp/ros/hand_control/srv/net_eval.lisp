@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/share/common-lisp/ros/hand_control/srv/net_eval.lisp
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/share/common-lisp/ros/hand_control/srv/net_eval.lisp

@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -33,7 +33,7 @@ struct rolloutReqRequest_
 
 
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _actions_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _actions_type;
   _actions_type actions;
 
 

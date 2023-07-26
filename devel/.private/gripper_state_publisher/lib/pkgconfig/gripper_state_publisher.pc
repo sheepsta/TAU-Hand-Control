@@ -1,4 +1,4 @@
-prefix=/home/curtisbot/catkin_ws/devel/.private/gripper_state_publisher
+prefix=/home/julius/TAU-Hand-Control/devel/.private/gripper_state_publisher
 
 Name: gripper_state_publisher
 Description: Description of gripper_state_publisher

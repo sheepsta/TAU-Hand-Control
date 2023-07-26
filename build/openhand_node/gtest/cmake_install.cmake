@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/curtisbot/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/julius/TAU-Hand-Control/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/curtisbot/catkin_ws/build/openhand_node/gtest/googlemock/cmake_install.cmake")
+  include("/home/julius/TAU-Hand-Control/build/openhand_node/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

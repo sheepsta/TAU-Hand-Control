@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/share/roseus/ros/hand_control/srv/RegraspObject.l
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/share/roseus/ros/hand_control/srv/RegraspObject.l

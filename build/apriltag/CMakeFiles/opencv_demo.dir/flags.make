@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/curtisbot/catkin_ws/src/apriltag -I/apriltag -isystem /usr/include/opencv 
+CXX_INCLUDES = -I/home/julius/TAU-Hand-Control/src/apriltag -I/apriltag -isystem /usr/include/opencv 
 

@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -35,10 +35,10 @@ struct plotReqRequest_
 
 
 
-   typedef std::vector<float, typename ContainerAllocator::template rebind<float>::other >  _states_type;
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _states_type;
   _states_type states;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _filename_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _filename_type;
   _filename_type filename;
 
 
@@ -199,7 +199,7 @@ struct Printer< ::rollout::plotReqRequest_<ContainerAllocator> >
       Printer<float>::stream(s, indent + "  ", v.states[i]);
     }
     s << indent << "filename: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.filename);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.filename);
   }
 };
 

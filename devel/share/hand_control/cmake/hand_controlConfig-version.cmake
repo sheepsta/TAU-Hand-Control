@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/share/hand_control/cmake/hand_controlConfig-version.cmake
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/share/hand_control/cmake/hand_controlConfig-version.cmake

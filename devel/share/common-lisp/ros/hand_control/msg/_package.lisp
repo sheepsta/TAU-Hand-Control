@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/share/common-lisp/ros/hand_control/msg/_package.lisp
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/share/common-lisp/ros/hand_control/msg/_package.lisp

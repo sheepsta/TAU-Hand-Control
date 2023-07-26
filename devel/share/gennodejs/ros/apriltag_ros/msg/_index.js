@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg/_index.js
+/home/julius/TAU-Hand-Control/devel/.private/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg/_index.js

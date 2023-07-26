@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/apriltag_ros/share/roseus/ros/apriltag_ros/msg/AprilTagDetectionArray.l
+/home/julius/TAU-Hand-Control/devel/.private/apriltag_ros/share/roseus/ros/apriltag_ros/msg/AprilTagDetectionArray.l

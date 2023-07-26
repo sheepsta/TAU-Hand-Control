@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/lib/pkgconfig/hand_control.pc
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/lib/pkgconfig/hand_control.pc

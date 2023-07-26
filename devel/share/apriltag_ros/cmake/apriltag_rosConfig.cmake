@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+/home/julius/TAU-Hand-Control/devel/.private/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake

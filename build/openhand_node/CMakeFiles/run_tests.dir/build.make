@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/curtisbot/catkin_ws/src/openhand_node
+CMAKE_SOURCE_DIR = /home/julius/TAU-Hand-Control/src/openhand_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/curtisbot/catkin_ws/build/openhand_node
+CMAKE_BINARY_DIR = /home/julius/TAU-Hand-Control/build/openhand_node
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/curtisbot/catkin_ws/build/openhand_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/curtisbot/catkin_ws/src/openhand_node /home/curtisbot/catkin_ws/src/openhand_node /home/curtisbot/catkin_ws/build/openhand_node /home/curtisbot/catkin_ws/build/openhand_node /home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/julius/TAU-Hand-Control/build/openhand_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julius/TAU-Hand-Control/src/openhand_node /home/julius/TAU-Hand-Control/src/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

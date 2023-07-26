@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv;/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv;/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv;/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv;/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv;/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv;/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv;/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv;/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv"
+services_str = "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv;/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv;/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv;/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv;/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv;/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv;/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv;/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv;/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv"
 pkg_name = "openhand_node"
 dependencies_str = ""
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

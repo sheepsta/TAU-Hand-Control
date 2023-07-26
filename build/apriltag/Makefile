@@ -48,23 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/curtisbot/catkin_ws/src/apriltag
+CMAKE_SOURCE_DIR = /home/julius/TAU-Hand-Control/src/apriltag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/curtisbot/catkin_ws/build/apriltag
+CMAKE_BINARY_DIR = /home/julius/TAU-Hand-Control/build/apriltag
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -124,11 +114,21 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/curtisbot/catkin_ws/build/apriltag/CMakeFiles /home/curtisbot/catkin_ws/build/apriltag/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julius/TAU-Hand-Control/build/apriltag/CMakeFiles /home/julius/TAU-Hand-Control/build/apriltag/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/curtisbot/catkin_ws/build/apriltag/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/julius/TAU-Hand-Control/build/apriltag/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named apriltag_python
+# Target rules for targets named apriltag_demo
 
 # Build rule for target.
-apriltag_python: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 apriltag_python
-.PHONY : apriltag_python
+apriltag_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 apriltag_demo
+.PHONY : apriltag_demo
 
 # fast build rule for target.
-apriltag_python/fast:
-	$(MAKE) -f CMakeFiles/apriltag_python.dir/build.make CMakeFiles/apriltag_python.dir/build
-.PHONY : apriltag_python/fast
+apriltag_demo/fast:
+	$(MAKE) -f CMakeFiles/apriltag_demo.dir/build.make CMakeFiles/apriltag_demo.dir/build
+.PHONY : apriltag_demo/fast
 
 #=============================================================================
 # Target rules for targets named apriltag
@@ -181,19 +181,6 @@ apriltag: cmake_check_build_system
 apriltag/fast:
 	$(MAKE) -f CMakeFiles/apriltag.dir/build.make CMakeFiles/apriltag.dir/build
 .PHONY : apriltag/fast
-
-#=============================================================================
-# Target rules for targets named apriltag_demo
-
-# Build rule for target.
-apriltag_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 apriltag_demo
-.PHONY : apriltag_demo
-
-# fast build rule for target.
-apriltag_demo/fast:
-	$(MAKE) -f CMakeFiles/apriltag_demo.dir/build.make CMakeFiles/apriltag_demo.dir/build
-.PHONY : apriltag_demo/fast
 
 #=============================================================================
 # Target rules for targets named opencv_demo
@@ -1078,16 +1065,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... list_install_components"
 	@echo "... install/local"
-	@echo "... apriltag_python"
-	@echo "... apriltag"
 	@echo "... install"
 	@echo "... apriltag_demo"
 	@echo "... edit_cache"
+	@echo "... apriltag"
 	@echo "... install/strip"
 	@echo "... opencv_demo"
 	@echo "... rebuild_cache"
+	@echo "... list_install_components"
 	@echo "... apriltag.o"
 	@echo "... apriltag.i"
 	@echo "... apriltag.s"

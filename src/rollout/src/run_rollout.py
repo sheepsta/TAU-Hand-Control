@@ -20,7 +20,7 @@ rate = rospy.Rate(15)  # 15hz
 state_dim = 7
 action_dim = 2
 
-path = '/home/curtisbot/catkin_ws/src/rollout/src/plans/'
+path = '/home/julius/TAU-Hand-Control/src/rollout/src/plans/'
 gum = 0
 scissors = 0
 rubiks_cube = 0

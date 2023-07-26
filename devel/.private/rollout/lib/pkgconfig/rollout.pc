@@ -1,8 +1,8 @@
-prefix=/home/curtisbot/catkin_ws/devel/.private/rollout
+prefix=/home/julius/TAU-Hand-Control/devel/.private/rollout
 
 Name: rollout
 Description: Description of rollout
 Version: 0.0.0
-Cflags: -I/home/curtisbot/catkin_ws/devel/.private/rollout/include
+Cflags: -I/home/julius/TAU-Hand-Control/devel/.private/rollout/include
 Libs: -L${prefix}/lib 
 Requires: 

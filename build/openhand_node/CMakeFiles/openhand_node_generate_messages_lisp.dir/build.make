@@ -43,82 +43,82 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/curtisbot/catkin_ws/src/openhand_node
+CMAKE_SOURCE_DIR = /home/julius/TAU-Hand-Control/src/openhand_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/curtisbot/catkin_ws/build/openhand_node
+CMAKE_BINARY_DIR = /home/julius/TAU-Hand-Control/build/openhand_node
 
 # Utility rule file for openhand_node_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include CMakeFiles/openhand_node_generate_messages_lisp.dir/progress.make
 
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp
-CMakeFiles/openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp
+CMakeFiles/openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp
 
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from openhand_node/HoldServos.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from openhand_node/ReadSensors.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from openhand_node/ReadLoad.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from openhand_node/OperatingMode.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from openhand_node/TorqueServos.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from openhand_node/HoldServos.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from openhand_node/ReadSensors.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from openhand_node/ReadLoad.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from openhand_node/MoveServos.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from openhand_node/ReadServos.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from openhand_node/ReadCurrent.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from openhand_node/ReadTemperature.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from openhand_node/OperatingMode.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from openhand_node/TorqueServos.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from openhand_node/ReadTemperature.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from openhand_node/ReadCurrent.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from openhand_node/ReadServos.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp: /home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from openhand_node/MoveServos.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv
 
 openhand_node_generate_messages_lisp: CMakeFiles/openhand_node_generate_messages_lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp
-openhand_node_generate_messages_lisp: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp
+openhand_node_generate_messages_lisp: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp
 openhand_node_generate_messages_lisp: CMakeFiles/openhand_node_generate_messages_lisp.dir/build.make
 
 .PHONY : openhand_node_generate_messages_lisp
@@ -133,6 +133,6 @@ CMakeFiles/openhand_node_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/openhand_node_generate_messages_lisp.dir/clean
 
 CMakeFiles/openhand_node_generate_messages_lisp.dir/depend:
-	cd /home/curtisbot/catkin_ws/build/openhand_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/curtisbot/catkin_ws/src/openhand_node /home/curtisbot/catkin_ws/src/openhand_node /home/curtisbot/catkin_ws/build/openhand_node /home/curtisbot/catkin_ws/build/openhand_node /home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles/openhand_node_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/julius/TAU-Hand-Control/build/openhand_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julius/TAU-Hand-Control/src/openhand_node /home/julius/TAU-Hand-Control/src/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles/openhand_node_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openhand_node_generate_messages_lisp.dir/depend
 

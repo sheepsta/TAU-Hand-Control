@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -38,7 +38,7 @@ struct planrollResponse_
    typedef uint8_t _suc_type;
   _suc_type suc;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _file_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _file_type;
   _file_type file;
 
 
@@ -195,7 +195,7 @@ struct Printer< ::hand_control::planrollResponse_<ContainerAllocator> >
     s << indent << "suc: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.suc);
     s << indent << "file: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.file);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.file);
   }
 };
 

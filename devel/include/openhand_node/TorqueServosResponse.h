@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServosResponse.h
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/TorqueServosResponse.h

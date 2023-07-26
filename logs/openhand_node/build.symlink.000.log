@@ -1,0 +1,337 @@
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/pkgconfig/openhand_node.pc
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/__init__.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/__init__.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadTemperature.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadSensors.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_HoldServos.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_OperatingMode.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_TorqueServos.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadCurrent.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadServos.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_MoveServos.py
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadLoad.py
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/MoveServosRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadLoad.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadSensors.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadLoadRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/OperatingModeResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/OperatingModeRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/HoldServos.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadTemperatureRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadSensorsResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadServos.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/TorqueServosRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/TorqueServos.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadCurrent.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadCurrentRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadLoadResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadSensorsRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/MoveServos.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/MoveServosResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadTemperature.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/OperatingMode.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/TorqueServosResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/HoldServosResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadServosRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadTemperatureResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadCurrentResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/HoldServosRequest.h
+Symlinking /home/julius/TAU-Hand-Control/devel/include/openhand_node/ReadServosResponse.h
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadLoad.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadServos.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/openhand_node-srv.asd
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_MoveServos.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadSensors.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadCurrent.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadTemperature.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_HoldServos.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_TorqueServos.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/_package_OperatingMode.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp
+Symlinking /home/julius/TAU-Hand-Control/devel/share/openhand_node/cmake/openhand_nodeConfig.cmake
+Symlinking /home/julius/TAU-Hand-Control/devel/share/openhand_node/cmake/openhand_node-msg-extras.cmake
+Symlinking /home/julius/TAU-Hand-Control/devel/share/openhand_node/cmake/openhand_nodeConfig-version.cmake
+Symlinking /home/julius/TAU-Hand-Control/devel/share/openhand_node/cmake/openhand_node-msg-paths.cmake
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/_index.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/TorqueServos.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/_index.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/ReadSensors.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/ReadLoad.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/OperatingMode.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/ReadServos.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/MoveServos.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/gennodejs/ros/openhand_node/srv/HoldServos.js
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/manifest.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/HoldServos.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/ReadTemperature.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/ReadLoad.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/ReadCurrent.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/OperatingMode.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/ReadSensors.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/ReadServos.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/TorqueServos.l
+Symlinking /home/julius/TAU-Hand-Control/devel/share/roseus/ros/openhand_node/srv/MoveServos.l
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/cmake.lock, /home/curtisbot/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServos.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/MoveServos.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServos.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/TorqueServos.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServosRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/TorqueServosRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServos.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadServos.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServosResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadServosResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServosRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/MoveServosRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperatureRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadTemperatureRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/TorqueServosResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/TorqueServosResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoad.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadLoad.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServos.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/HoldServos.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServosResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/HoldServosResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrentResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadCurrentResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensorsRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadSensorsRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingModeRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/OperatingModeRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensors.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadSensors.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperature.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadTemperature.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/MoveServosResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/MoveServosResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadSensorsResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadSensorsResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrentRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadCurrentRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadServosRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadServosRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadCurrent.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadCurrent.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoadResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadLoadResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingMode.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/OperatingMode.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/HoldServosRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/HoldServosRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperatureResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadTemperatureResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadLoadRequest.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadLoadRequest.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/OperatingModeResponse.h, /home/curtisbot/catkin_ws/devel/include/openhand_node/OperatingModeResponse.h)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_OperatingMode.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_OperatingMode.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_ReadServos.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadServos.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_TorqueServos.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_TorqueServos.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_ReadLoad.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadLoad.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_MoveServos.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_MoveServos.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_ReadSensors.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadSensors.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_HoldServos.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_HoldServos.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_ReadCurrent.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadCurrent.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/_package_ReadTemperature.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadTemperature.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/common-lisp/ros/openhand_node/srv/openhand_node-srv.asd, /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/openhand_node-srv.asd)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/_index.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/_index.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadSensors.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/OperatingMode.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/_index.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/_index.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadServos.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadLoad.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/HoldServos.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/TorqueServos.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js, /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/MoveServos.js)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/openhand_node/cmake/openhand_nodeConfig-version.cmake, /home/curtisbot/catkin_ws/devel/share/openhand_node/cmake/openhand_nodeConfig-version.cmake)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/openhand_node/cmake/openhand_node-msg-extras.cmake, /home/curtisbot/catkin_ws/devel/share/openhand_node/cmake/openhand_node-msg-extras.cmake)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/openhand_node/cmake/openhand_node-msg-paths.cmake, /home/curtisbot/catkin_ws/devel/share/openhand_node/cmake/openhand_node-msg-paths.cmake)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/openhand_node/cmake/openhand_nodeConfig.cmake, /home/curtisbot/catkin_ws/devel/share/openhand_node/cmake/openhand_nodeConfig.cmake)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/manifest.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/manifest.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/MoveServos.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/MoveServos.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/HoldServos.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/HoldServos.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/TorqueServos.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/TorqueServos.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/ReadLoad.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadLoad.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/ReadCurrent.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadCurrent.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/OperatingMode.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/OperatingMode.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/ReadServos.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadServos.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/ReadSensors.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadSensors.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/ReadTemperature.l, /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadTemperature.l)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/pkgconfig/openhand_node.pc, /home/curtisbot/catkin_ws/devel/lib/pkgconfig/openhand_node.pc)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/__init__.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/__init__.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_ReadServos.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadServos.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_ReadSensors.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadSensors.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_ReadCurrent.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadCurrent.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/__init__.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/__init__.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_OperatingMode.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_OperatingMode.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_ReadLoad.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadLoad.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_HoldServos.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_HoldServos.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_MoveServos.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_MoveServos.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_TorqueServos.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_TorqueServos.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/openhand_node/lib/python2.7/dist-packages/openhand_node/srv/_ReadTemperature.py, /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadTemperature.py)
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/MoveServos.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/TorqueServos.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/TorqueServosRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadServos.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadServosResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/MoveServosRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadTemperatureRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/TorqueServosResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadLoad.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/HoldServos.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/HoldServosResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadCurrentResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadSensorsRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/OperatingModeRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadSensors.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadTemperature.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/MoveServosResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadSensorsResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadCurrentRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadServosRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadCurrent.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadLoadResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/OperatingMode.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/HoldServosRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadTemperatureResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/ReadLoadRequest.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/include/openhand_node/OperatingModeResponse.h
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_OperatingMode.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadSensors.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadServos.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadCurrent.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_TorqueServos.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadLoad.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_MoveServos.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadSensors.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_HoldServos.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadLoad.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/MoveServos.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/TorqueServos.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadServos.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadCurrent.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/_package_ReadTemperature.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/HoldServos.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/ReadTemperature.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/OperatingMode.lisp
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/common-lisp/ros/openhand_node/srv/openhand_node-srv.asd
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/_index.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadSensors.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/OperatingMode.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/_index.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadServos.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadLoad.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/HoldServos.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/TorqueServos.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/gennodejs/ros/openhand_node/srv/MoveServos.js
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/openhand_node/cmake/openhand_nodeConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/openhand_node/cmake/openhand_node-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/openhand_node/cmake/openhand_node-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/openhand_node/cmake/openhand_nodeConfig.cmake
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/manifest.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/MoveServos.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/HoldServos.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/TorqueServos.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadLoad.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadCurrent.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/OperatingMode.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadServos.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadSensors.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/roseus/ros/openhand_node/srv/ReadTemperature.l
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/pkgconfig/openhand_node.pc
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/__init__.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadServos.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadSensors.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadCurrent.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/__init__.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_OperatingMode.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadLoad.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_HoldServos.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_MoveServos.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_TorqueServos.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/python2.7/dist-packages/openhand_node/srv/_ReadTemperature.py
+Already unlinked: {}

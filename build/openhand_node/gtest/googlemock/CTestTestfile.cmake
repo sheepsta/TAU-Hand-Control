@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/curtisbot/catkin_ws/build/openhand_node/gtest/googlemock
+# Build directory: /home/julius/TAU-Hand-Control/build/openhand_node/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

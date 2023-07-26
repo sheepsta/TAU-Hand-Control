@@ -1,0 +1,77 @@
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_ReadCurrent[0m
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_ReadTemperature[0m
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_OperatingMode[0m
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadCurrent
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadTemperature
+[  0%] Built target _openhand_node_generate_messages_check_deps_OperatingMode
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_ReadSensors[0m
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_MoveServos[0m
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadSensors
+[  0%] Built target _openhand_node_generate_messages_check_deps_MoveServos
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_HoldServos[0m
+[  0%] Built target _openhand_node_generate_messages_check_deps_HoldServos
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_ReadLoad[0m
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadLoad
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_ReadServos[0m
+[  0%] Built target _openhand_node_generate_messages_check_deps_ReadServos
+[35m[1mScanning dependencies of target _openhand_node_generate_messages_check_deps_TorqueServos[0m
+[  0%] Built target _openhand_node_generate_messages_check_deps_TorqueServos
+[35m[1mScanning dependencies of target openhand_node_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target openhand_node_generate_messages_nodejs[0m
+[  2%] [34m[1mGenerating Lisp code from openhand_node/ReadSensors.srv[0m
+[  4%] [34m[1mGenerating Javascript code from openhand_node/ReadSensors.srv[0m
+[  6%] [34m[1mGenerating Javascript code from openhand_node/OperatingMode.srv[0m
+[  8%] [34m[1mGenerating Lisp code from openhand_node/OperatingMode.srv[0m
+[35m[1mScanning dependencies of target openhand_node_generate_messages_cpp[0m
+[ 10%] [34m[1mGenerating Javascript code from openhand_node/HoldServos.srv[0m
+[35m[1mScanning dependencies of target openhand_node_generate_messages_eus[0m
+[ 12%] [34m[1mGenerating C++ code from openhand_node/ReadSensors.srv[0m
+[ 14%] [34m[1mGenerating EusLisp code from openhand_node/ReadSensors.srv[0m
+[ 17%] [34m[1mGenerating C++ code from openhand_node/OperatingMode.srv[0m
+[ 19%] [34m[1mGenerating Lisp code from openhand_node/HoldServos.srv[0m
+[35m[1mScanning dependencies of target openhand_node_generate_messages_py[0m
+[ 21%] [34m[1mGenerating Javascript code from openhand_node/ReadLoad.srv[0m
+[ 23%] [34m[1mGenerating Python code from SRV openhand_node/ReadSensors[0m
+[ 25%] [34m[1mGenerating EusLisp code from openhand_node/OperatingMode.srv[0m
+[ 27%] [34m[1mGenerating Lisp code from openhand_node/ReadLoad.srv[0m
+[ 29%] [34m[1mGenerating Javascript code from openhand_node/ReadServos.srv[0m
+[ 31%] [34m[1mGenerating Lisp code from openhand_node/ReadServos.srv[0m
+[ 34%] [34m[1mGenerating Javascript code from openhand_node/ReadTemperature.srv[0m
+[ 36%] [34m[1mGenerating EusLisp code from openhand_node/HoldServos.srv[0m
+[ 38%] [34m[1mGenerating Javascript code from openhand_node/TorqueServos.srv[0m
+[ 42%] [34m[1mGenerating Javascript code from openhand_node/ReadCurrent.srv[0m
+[ 42%] [34m[1mGenerating C++ code from openhand_node/HoldServos.srv[0m
+[ 44%] [34m[1mGenerating Javascript code from openhand_node/MoveServos.srv[0m
+[ 46%] [34m[1mGenerating Lisp code from openhand_node/ReadTemperature.srv[0m
+[ 48%] [34m[1mGenerating C++ code from openhand_node/ReadLoad.srv[0m
+[ 51%] [34m[1mGenerating C++ code from openhand_node/ReadServos.srv[0m
+[ 53%] [34m[1mGenerating Lisp code from openhand_node/TorqueServos.srv[0m
+[ 55%] [34m[1mGenerating Lisp code from openhand_node/ReadCurrent.srv[0m
+[ 57%] [34m[1mGenerating EusLisp code from openhand_node/ReadLoad.srv[0m
+[ 57%] Built target openhand_node_generate_messages_nodejs
+[ 61%] [34m[1mGenerating EusLisp code from openhand_node/ReadTemperature.srv[0m
+[ 61%] [34m[1mGenerating EusLisp code from openhand_node/ReadServos.srv[0m
+[ 63%] [34m[1mGenerating EusLisp code from openhand_node/TorqueServos.srv[0m
+[ 65%] [34m[1mGenerating Python code from SRV openhand_node/OperatingMode[0m
+[ 68%] [34m[1mGenerating Lisp code from openhand_node/MoveServos.srv[0m
+[ 70%] [34m[1mGenerating EusLisp code from openhand_node/ReadCurrent.srv[0m
+[ 72%] [34m[1mGenerating C++ code from openhand_node/ReadTemperature.srv[0m
+[ 74%] [34m[1mGenerating C++ code from openhand_node/TorqueServos.srv[0m
+[ 74%] Built target openhand_node_generate_messages_lisp
+[ 76%] [34m[1mGenerating C++ code from openhand_node/ReadCurrent.srv[0m
+[ 78%] [34m[1mGenerating C++ code from openhand_node/MoveServos.srv[0m
+[ 82%] [34m[1mGenerating EusLisp code from openhand_node/MoveServos.srv[0m
+[ 82%] [34m[1mGenerating EusLisp manifest code for openhand_node[0m
+[ 85%] [34m[1mGenerating Python code from SRV openhand_node/HoldServos[0m
+[ 87%] [34m[1mGenerating Python code from SRV openhand_node/ReadLoad[0m
+[ 89%] [34m[1mGenerating Python code from SRV openhand_node/ReadServos[0m
+[ 91%] [34m[1mGenerating Python code from SRV openhand_node/ReadTemperature[0m
+[ 95%] [34m[1mGenerating Python code from SRV openhand_node/ReadCurrent[0m
+[ 95%] [34m[1mGenerating Python code from SRV openhand_node/TorqueServos[0m
+[ 97%] [34m[1mGenerating Python code from SRV openhand_node/MoveServos[0m
+[ 97%] Built target openhand_node_generate_messages_cpp
+[100%] [34m[1mGenerating Python srv __init__.py for openhand_node[0m
+[100%] Built target openhand_node_generate_messages_py
+[100%] Built target openhand_node_generate_messages_eus
+[35m[1mScanning dependencies of target openhand_node_generate_messages[0m
+[100%] Built target openhand_node_generate_messages

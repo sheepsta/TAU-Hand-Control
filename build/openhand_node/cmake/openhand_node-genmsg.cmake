@@ -17,49 +17,49 @@ add_custom_target(openhand_node_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv" ""
 )
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv" ""
 )
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv" ""
 )
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv" ""
 )
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv" ""
 )
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv" ""
 )
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv" ""
 )
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv" ""
 )
 
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv" NAME_WE)
 add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "openhand_node" "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv" ""
 )
 
 #
@@ -71,55 +71,55 @@ add_custom_target(_openhand_node_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_cpp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/openhand_node
@@ -137,23 +137,23 @@ add_custom_target(openhand_node_generate_messages_cpp
 add_dependencies(openhand_node_generate_messages openhand_node_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_cpp _openhand_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -168,55 +168,55 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS openhand_node_generate_messages_cpp
 
 ### Generating Services
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
 )
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
 )
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
 )
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
 )
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
 )
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
 )
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
 )
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
 )
 _generate_srv_eus(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/openhand_node
@@ -234,23 +234,23 @@ add_custom_target(openhand_node_generate_messages_eus
 add_dependencies(openhand_node_generate_messages openhand_node_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_eus _openhand_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -265,55 +265,55 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS openhand_node_generate_messages_eus
 
 ### Generating Services
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
 )
 _generate_srv_lisp(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/openhand_node
@@ -331,23 +331,23 @@ add_custom_target(openhand_node_generate_messages_lisp
 add_dependencies(openhand_node_generate_messages openhand_node_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_lisp _openhand_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -362,55 +362,55 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS openhand_node_generate_messages_lis
 
 ### Generating Services
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
 )
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
 )
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
 )
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
 )
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
 )
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
 )
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
 )
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
 )
 _generate_srv_nodejs(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/openhand_node
@@ -428,23 +428,23 @@ add_custom_target(openhand_node_generate_messages_nodejs
 add_dependencies(openhand_node_generate_messages openhand_node_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_nodejs _openhand_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -459,55 +459,55 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS openhand_node_generate_messages_nod
 
 ### Generating Services
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
 )
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
 )
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
 )
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
 )
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
 )
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
 )
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
 )
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
 )
 _generate_srv_py(openhand_node
-  "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv"
+  "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
@@ -525,23 +525,23 @@ add_custom_target(openhand_node_generate_messages_py
 add_dependencies(openhand_node_generate_messages openhand_node_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv" NAME_WE)
+get_filename_component(_filename "/home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv" NAME_WE)
 add_dependencies(openhand_node_generate_messages_py _openhand_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -596,10 +596,11 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/open
     PATTERN "__init__.pyc" EXCLUDE
   )
   # install init files which are not in the root folder of the generated code
+  string(REGEX REPLACE "([][+.*()^])" "\\\\\\1" ESCAPED_PATH "${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node")
   install(
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node
     DESTINATION ${genpy_INSTALL_DIR}
     FILES_MATCHING
-    REGEX "${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/openhand_node/.+/__init__.pyc?$"
+    REGEX "${ESCAPED_PATH}/.+/__init__.pyc?$"
   )
 endif()

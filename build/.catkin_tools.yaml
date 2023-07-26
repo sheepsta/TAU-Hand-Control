@@ -1,6 +1,6 @@
-devel_space: /home/curtisbot/catkin_ws/devel
+devel_space: /home/julius/TAU-Hand-Control/devel
 install: false
-install_space: /home/curtisbot/catkin_ws/install
+install_space: /home/julius/TAU-Hand-Control/install
 profile: default
-source_space: /home/curtisbot/catkin_ws/src
-workspace: /home/curtisbot/catkin_ws
+source_space: /home/julius/TAU-Hand-Control/src
+workspace: /home/julius/TAU-Hand-Control

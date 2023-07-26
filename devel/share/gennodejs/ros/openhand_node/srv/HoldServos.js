@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js

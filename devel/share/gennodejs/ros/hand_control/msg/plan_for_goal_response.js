@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/share/gennodejs/ros/hand_control/msg/plan_for_goal_response.js
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/share/gennodejs/ros/hand_control/msg/plan_for_goal_response.js

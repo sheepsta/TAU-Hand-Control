@@ -1,8 +1,8 @@
-prefix=/home/curtisbot/catkin_ws/devel/.private/hand_control
+prefix=/home/julius/TAU-Hand-Control/devel/.private/hand_control
 
 Name: hand_control
 Description: Description of hand_control
 Version: 0.0.0
-Cflags: -I/home/curtisbot/catkin_ws/devel/.private/hand_control/include
+Cflags: -I/home/julius/TAU-Hand-Control/devel/.private/hand_control/include
 Libs: -L${prefix}/lib 
 Requires: 

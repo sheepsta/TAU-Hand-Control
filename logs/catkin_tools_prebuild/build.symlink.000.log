@@ -1,0 +1,46 @@
+Symlinking /home/julius/TAU-Hand-Control/devel/./setup.bash
+Symlinking /home/julius/TAU-Hand-Control/devel/./local_setup.sh
+Symlinking /home/julius/TAU-Hand-Control/devel/./_setup_util.py
+Symlinking /home/julius/TAU-Hand-Control/devel/./setup.zsh
+Symlinking /home/julius/TAU-Hand-Control/devel/./env.sh
+Symlinking /home/julius/TAU-Hand-Control/devel/./cmake.lock
+Symlinking /home/julius/TAU-Hand-Control/devel/./local_setup.zsh
+Symlinking /home/julius/TAU-Hand-Control/devel/./setup.sh
+Symlinking /home/julius/TAU-Hand-Control/devel/./local_setup.bash
+Symlinking /home/julius/TAU-Hand-Control/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/julius/TAU-Hand-Control/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/julius/TAU-Hand-Control/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/setup.zsh, /home/curtisbot/catkin_ws/devel/./setup.zsh)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/env.sh, /home/curtisbot/catkin_ws/devel/./env.sh)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/curtisbot/catkin_ws/devel/./local_setup.zsh)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/curtisbot/catkin_ws/devel/./local_setup.bash)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/setup.sh, /home/curtisbot/catkin_ws/devel/./setup.sh)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/curtisbot/catkin_ws/devel/./local_setup.sh)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/setup.bash, /home/curtisbot/catkin_ws/devel/./setup.bash)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/curtisbot/catkin_ws/devel/./_setup_util.py)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/cmake.lock, /home/curtisbot/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/curtisbot/catkin_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/curtisbot/catkin_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Cleaning: (/home/curtisbot/catkin_ws/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/curtisbot/catkin_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Unlinking: /home/curtisbot/catkin_ws/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}
+Unlinking: /home/curtisbot/catkin_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}

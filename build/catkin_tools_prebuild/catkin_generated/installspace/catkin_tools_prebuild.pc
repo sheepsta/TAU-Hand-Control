@@ -1,4 +1,4 @@
-prefix=/home/curtisbot/catkin_ws/install
+prefix=/home/julius/TAU-Hand-Control/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/curtisbot/catkin_ws/src/apriltag -I/apriltag 
+C_INCLUDES = -I/home/julius/TAU-Hand-Control/src/apriltag -I/apriltag 
 

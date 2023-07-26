@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/rollout/share/rollout/cmake/rollout-msg-extras.cmake
+/home/julius/TAU-Hand-Control/devel/.private/rollout/share/rollout/cmake/rollout-msg-extras.cmake

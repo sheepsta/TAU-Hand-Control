@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/share/common-lisp/ros/hand_control/srv/hand_control-srv.asd
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/share/common-lisp/ros/hand_control/srv/hand_control-srv.asd

@@ -67,14 +67,14 @@ set(openhand_node_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(openhand_node_SOURCE_PREFIX /home/curtisbot/catkin_ws/src/openhand_node)
-  set(openhand_node_DEVEL_PREFIX /home/curtisbot/catkin_ws/devel/.private/openhand_node)
+  set(openhand_node_SOURCE_PREFIX /home/julius/TAU-Hand-Control/src/openhand_node)
+  set(openhand_node_DEVEL_PREFIX /home/julius/TAU-Hand-Control/devel/.private/openhand_node)
   set(openhand_node_INSTALL_PREFIX "")
   set(openhand_node_PREFIX ${openhand_node_DEVEL_PREFIX})
 else()
   set(openhand_node_SOURCE_PREFIX "")
   set(openhand_node_DEVEL_PREFIX "")
-  set(openhand_node_INSTALL_PREFIX /home/curtisbot/catkin_ws/install)
+  set(openhand_node_INSTALL_PREFIX /home/julius/TAU-Hand-Control/install)
   set(openhand_node_PREFIX ${openhand_node_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(openhand_node_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/curtisbot/catkin_ws/devel/.private/openhand_node/include " STREQUAL " ")
+if(NOT "/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include " STREQUAL " ")
   set(openhand_node_INCLUDE_DIRS "")
-  set(_include_dirs "/home/curtisbot/catkin_ws/devel/.private/openhand_node/include")
+  set(_include_dirs "/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/curtisbot/catkin_ws/devel/.private/openhand_node/include " STREQUA
         message(FATAL_ERROR "Project 'openhand_node' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'openhand_node' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/curtisbot/catkin_ws/src/openhand_node/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'openhand_node' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/julius/TAU-Hand-Control/src/openhand_node/${idir}'.  ${_report}")
     endif()
     _list_append_unique(openhand_node_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/curtisbot/catkin_ws/devel/.private/openhand_node/lib;/home/curtisbot/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/julius/TAU-Hand-Control/devel/.private/openhand_node/lib;/home/julius/TAU-Hand-Control/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

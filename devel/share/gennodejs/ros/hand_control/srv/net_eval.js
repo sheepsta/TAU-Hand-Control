@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/hand_control/share/gennodejs/ros/hand_control/srv/net_eval.js
+/home/julius/TAU-Hand-Control/devel/.private/hand_control/share/gennodejs/ros/hand_control/srv/net_eval.js

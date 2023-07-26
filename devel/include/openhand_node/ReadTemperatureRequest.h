@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/include/openhand_node/ReadTemperatureRequest.h
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/include/openhand_node/ReadTemperatureRequest.h

@@ -1,24 +1,24 @@
 
 "use strict";
 
-let MoveServos = require('./MoveServos.js')
+let TargetAngles = require('./TargetAngles.js')
 let rolloutReqMod = require('./rolloutReqMod.js')
+let rolloutReqFile = require('./rolloutReqFile.js')
 let plotReq = require('./plotReq.js')
-let IsDropped = require('./IsDropped.js')
-let rolloutReq = require('./rolloutReq.js')
 let gets = require('./gets.js')
 let observation = require('./observation.js')
-let rolloutReqFile = require('./rolloutReqFile.js')
-let TargetAngles = require('./TargetAngles.js')
+let MoveServos = require('./MoveServos.js')
+let IsDropped = require('./IsDropped.js')
+let rolloutReq = require('./rolloutReq.js')
 
 module.exports = {
-  MoveServos: MoveServos,
+  TargetAngles: TargetAngles,
   rolloutReqMod: rolloutReqMod,
+  rolloutReqFile: rolloutReqFile,
   plotReq: plotReq,
-  IsDropped: IsDropped,
-  rolloutReq: rolloutReq,
   gets: gets,
   observation: observation,
-  rolloutReqFile: rolloutReqFile,
-  TargetAngles: TargetAngles,
+  MoveServos: MoveServos,
+  IsDropped: IsDropped,
+  rolloutReq: rolloutReq,
 };

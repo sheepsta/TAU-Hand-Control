@@ -1,1 +1,1 @@
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/ReadServos.l
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/roseus/ros/openhand_node/srv/ReadServos.l

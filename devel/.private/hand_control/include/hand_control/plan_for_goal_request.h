@@ -8,7 +8,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include <memory>
 
 #include <ros/types.h>
 #include <ros/serialization.h>
@@ -43,10 +43,10 @@ struct plan_for_goal_request_
 
 
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _goal_state_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _goal_state_type;
   _goal_state_type goal_state;
 
-   typedef std::vector<double, typename ContainerAllocator::template rebind<double>::other >  _start_state_type;
+   typedef std::vector<double, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<double>> _start_state_type;
   _start_state_type start_state;
 
    typedef double _goal_radius_type;
@@ -58,7 +58,7 @@ struct plan_for_goal_request_
    typedef double _probability_success_threshold_type;
   _probability_success_threshold_type probability_success_threshold;
 
-   typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _planning_algorithm_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _planning_algorithm_type;
   _planning_algorithm_type planning_algorithm;
 
 
@@ -243,7 +243,7 @@ struct Printer< ::hand_control::plan_for_goal_request_<ContainerAllocator> >
     s << indent << "probability_success_threshold: ";
     Printer<double>::stream(s, indent + "  ", v.probability_success_threshold);
     s << indent << "planning_algorithm: ";
-    Printer<std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other > >::stream(s, indent + "  ", v.planning_algorithm);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.planning_algorithm);
   }
 };
 

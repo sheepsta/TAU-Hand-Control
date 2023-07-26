@@ -1,4 +1,4 @@
-prefix=/home/curtisbot/catkin_ws/devel
+prefix=/home/julius/TAU-Hand-Control/devel
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib

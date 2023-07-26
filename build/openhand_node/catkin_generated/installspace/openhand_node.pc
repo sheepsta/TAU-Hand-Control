@@ -1,4 +1,4 @@
-prefix=/home/curtisbot/catkin_ws/install
+prefix=/home/julius/TAU-Hand-Control/install
 
 Name: openhand_node
 Description: Description of openhand_node

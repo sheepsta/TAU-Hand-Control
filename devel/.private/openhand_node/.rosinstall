@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/curtisbot/catkin_ws/devel/.private/openhand_node/setup.sh
+    local-name: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/setup.sh

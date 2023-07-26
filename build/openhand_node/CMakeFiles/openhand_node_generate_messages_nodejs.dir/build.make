@@ -43,82 +43,82 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/curtisbot/catkin_ws/src/openhand_node
+CMAKE_SOURCE_DIR = /home/julius/TAU-Hand-Control/src/openhand_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/curtisbot/catkin_ws/build/openhand_node
+CMAKE_BINARY_DIR = /home/julius/TAU-Hand-Control/build/openhand_node
 
 # Utility rule file for openhand_node_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include CMakeFiles/openhand_node_generate_messages_nodejs.dir/progress.make
 
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js
-CMakeFiles/openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js
+CMakeFiles/openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js
 
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from openhand_node/HoldServos.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/HoldServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from openhand_node/ReadSensors.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadSensors.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from openhand_node/ReadLoad.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadLoad.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from openhand_node/OperatingMode.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/OperatingMode.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from openhand_node/TorqueServos.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/TorqueServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from openhand_node/HoldServos.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/HoldServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from openhand_node/ReadSensors.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadSensors.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from openhand_node/ReadLoad.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadLoad.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from openhand_node/MoveServos.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/MoveServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from openhand_node/ReadServos.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from openhand_node/ReadCurrent.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadCurrent.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from openhand_node/ReadTemperature.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadTemperature.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from openhand_node/OperatingMode.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/OperatingMode.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from openhand_node/TorqueServos.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/TorqueServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from openhand_node/ReadTemperature.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadTemperature.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from openhand_node/ReadCurrent.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/ReadCurrent.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js: /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from openhand_node/ReadServos.srv"
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/curtisbot/catkin_ws/src/openhand_node/srv/ReadServos.srv -p openhand_node -o /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js: /home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from openhand_node/MoveServos.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/julius/TAU-Hand-Control/src/openhand_node/srv/MoveServos.srv -p openhand_node -o /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv
 
 openhand_node_generate_messages_nodejs: CMakeFiles/openhand_node_generate_messages_nodejs
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js
-openhand_node_generate_messages_nodejs: /home/curtisbot/catkin_ws/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadSensors.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/OperatingMode.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/HoldServos.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadLoad.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadServos.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadTemperature.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/TorqueServos.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/ReadCurrent.js
+openhand_node_generate_messages_nodejs: /home/julius/TAU-Hand-Control/devel/.private/openhand_node/share/gennodejs/ros/openhand_node/srv/MoveServos.js
 openhand_node_generate_messages_nodejs: CMakeFiles/openhand_node_generate_messages_nodejs.dir/build.make
 
 .PHONY : openhand_node_generate_messages_nodejs
@@ -133,6 +133,6 @@ CMakeFiles/openhand_node_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/openhand_node_generate_messages_nodejs.dir/clean
 
 CMakeFiles/openhand_node_generate_messages_nodejs.dir/depend:
-	cd /home/curtisbot/catkin_ws/build/openhand_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/curtisbot/catkin_ws/src/openhand_node /home/curtisbot/catkin_ws/src/openhand_node /home/curtisbot/catkin_ws/build/openhand_node /home/curtisbot/catkin_ws/build/openhand_node /home/curtisbot/catkin_ws/build/openhand_node/CMakeFiles/openhand_node_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/julius/TAU-Hand-Control/build/openhand_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/julius/TAU-Hand-Control/src/openhand_node /home/julius/TAU-Hand-Control/src/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node /home/julius/TAU-Hand-Control/build/openhand_node/CMakeFiles/openhand_node_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openhand_node_generate_messages_nodejs.dir/depend
 
