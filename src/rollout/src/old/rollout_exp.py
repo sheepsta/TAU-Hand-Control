@@ -90,7 +90,7 @@ class rolloutPublisher():
 
         self.trigger = False
 
-        self.reset()
+        # self.reset()
         # self.regrasp_srv()
 
         self.fail = False

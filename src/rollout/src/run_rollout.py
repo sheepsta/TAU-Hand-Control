@@ -22,7 +22,7 @@ action_dim = 2
 
 path = '/home/julius/TAU-Hand-Control/src/rollout/src/plans/'
 gum = 0
-scissors = 0
+circle = 0
 rubiks_cube = 0
 duck = 0
 knife = 0
@@ -31,8 +31,8 @@ bottle = 0
 broom = 0
 david = 0
 cylinder = 0
-square = 1
-hexagon = 0
+square = 0
+hexagon = 1
 crescent = 0
 rollout = 1
 save_graph = True
@@ -113,7 +113,7 @@ if rollout:
     print(files)
 
     # for i in range(len(files)):
-    i=4
+    i=0
 
     action_file = files[i]
     npfile = action_file[:-4]
@@ -134,8 +134,8 @@ if rollout:
         logdir += "xacto_knife/"
     elif bottle:
         logdir += "bottle/"
-    elif scissors:
-        logdir += "scissors/"
+    elif circle:
+        logdir += "circle/"
     elif david:
         logdir += "david/"
     elif crescent:
@@ -199,7 +199,7 @@ if rollout:
 
         print('suc: ' + resp.reason + '\tnum_actions: '+ str(len(A)))
 
-        if len(S) <= 10:
+        if len(S) <= 100:
             continue
 
         z = 1
@@ -217,8 +217,8 @@ if rollout:
             prefix = "xacto_knife"
         elif bottle:
             prefix = "bottle"
-        elif scissors:
-            prefix = "scissors"
+        elif circle:
+            prefix = "circle"
         elif david:
             prefix = "david"
         elif crescent:

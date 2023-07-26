@@ -44,6 +44,6 @@ servo_type: 'XM'
 servo_port: '/dev/ttyUSB0'
 openhand_type: 'Model_T42'
 direction: [1,1]
-motor_offset: [.2,.08]
+motor_offset: [.19,.06]
 
 #left ( opposite )  right#
