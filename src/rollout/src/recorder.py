@@ -9,6 +9,7 @@ Author:  Osher Azulay
 # from tensorflow.keras.optimizers import Adam
 # from tensorflow.keras.layers import Conv1D, MaxPooling1D, Flatten, Dense
 # from tensorflow.keras.models import Sequential
+# from keras import load_model
 from scipy.signal import butter, filtfilt
 from math import isnan
 from matplotlib.collections import PatchCollection
@@ -34,6 +35,7 @@ import cv2
 import time
 import matplotlib.font_manager as fm
 import matplotlib as mpl
+from scipy.signal import butter, filtfilt
 font_names = [f.name for f in fm.fontManager.ttflist]
 
 # Rebuild the matplotlib font cache
@@ -49,10 +51,10 @@ np.set_printoptions(2)
 
 
 display_images = True
-display_prediction = False
+display_prediction = True
 display_obs = False
 record = False
-display_gt = True
+display_gt = False
 
 
 class RotatingRectangle():
@@ -124,8 +126,10 @@ class rolloutRecorder():
     drop = True
     grasped = False
     nan_in_state = False
+    subsequence_length = 75
     first_run = True
     first_state = 0
+    # model = load_model('subsequence75.h5')
 
     action = np.array([0., 0.])  # left, right
     obj_pos = np.array([0., 0., 0.])  # x, y, theta
@@ -140,8 +144,7 @@ class rolloutRecorder():
     S, A, T = [], [], []
     images, Timages = [], []
     I = np.zeros((480, 640, 3), dtype=np.uint8)
-    prediction = {'Square': 0, 'Duck': 0,
-                  'Cylinder': 0, 'David': 0, 'Hexagon': 0}
+    prediction = {0:1, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0}
 
     xy_gt = np.array([0., 0.])
     xy_pred = np.array([0., 0.])
@@ -193,60 +196,52 @@ class rolloutRecorder():
         else:
             self.rate = rospy.Rate(12)  # 2hz
 
-# ************************************************************************************************
-        # # build classification model
-        # subsequence_length = 50
+    # def preprocess_single_matrix(matrix):
+    #     def apply_low_pass_filter(matrix1):
+    #         # Apply a low-pass filter to the matrix
+    #         b, a = butter(5, 0.1, btype='lowpass', analog=False)
+    #         filtered_matrix = filtfilt(b, a, matrix1, axis=0)
+    #         return filtered_matrix
+    #     subsequence_length = 75
+    #     subsequences = []
 
-        # def build_complex_model(regularization_strength):
-        #     model = Sequential([
-        #         Conv1D(32, kernel_size=5, activation='relu',
-        #                input_shape=(subsequence_length, 6)),
-        #         MaxPooling1D(pool_size=2),
-        #         Conv1D(64, kernel_size=5, activation='relu'),
-        #         MaxPooling1D(pool_size=2),
-        #         Conv1D(128, kernel_size=5, activation='relu'),
-        #         MaxPooling1D(pool_size=2),
-        #         Flatten(),
-        #         Dense(256, activation='relu', kernel_regularizer=l1(
-        #             regularization_strength)),
-        #         Dropout(0.5),
-        #         Dense(128, activation='relu', kernel_regularizer=l1(
-        #             regularization_strength)),
-        #         Dropout(0.5),
-        #         Dense(5, activation='softmax',
-        #               kernel_regularizer=l1(regularization_strength))
-        #     ])
+    #     length = matrix.shape[0]
+    #     num_subsequences = length - subsequence_length + 1
 
-        #     # Compile the model
-        #     model.compile(optimizer=Adam(learning_rate=0.001),
-        #                   loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-        #     return model
-        # self.model = build_complex_model(.0001)
-        # self.model.load_weights('subsequence50.h5')
+    #     for i in range(num_subsequences):
+    #         subseq = matrix[i : i + subsequence_length, :]
+    #         if not np.isnan(subseq).any() and subseq.shape[0] == subsequence_length:
+    #             filtered_subseq = apply_low_pass_filter(subseq)
+    #             subsequences.append(filtered_subseq)
 
-        # def preprocess_input(matrix):
-        #     subsequence_length = 50
-        #     length = matrix.shape[0]
-        #     matrix = matrix[length-subsequence_length:length, :]
-        #     if np.isnan(matrix).any():
-        #         return "NaN values found in the array. Cannot classify yet."
+    #     if subsequences:
+    #         with open('scaler.pkl', 'rb') as f:
+    #             scaler = pickle.load(f)
+    #         normalized_matrices = scaler.fit_transform(np.array(subsequences).reshape(-1, 6))
+    #         result = normalized_matrices.reshape(-1, subsequence_length, 6)
+    #     else:
+    #         result = np.empty((0, subsequence_length, 6))
 
-        #     def adjust_for_starting_position(matrix):
-        #         adjusted_data = []
-        #         first_row = matrix[0]
-        #         adjusted_matrix = matrix - first_row
-        #         return adjusted_matrix
+    #     return result
 
-        #     def apply_low_pass_filter(matrix):
-        #         # Apply a low-pass filter to the matrix
-        #         b, a = butter(5, 0.1, btype='lowpass', analog=False)
-        #         filtered_matrix = filtfilt(b, a, matrix, axis=0)
-        #         return filtered_matrix
+    # def predict_class(matrix):
+    #     # Preprocess the input matrix
+    #     class_names = ['Ovular', 'Hexagon', 'Square', 'David', 'Duck', 'Circle', 'Blob', 'Halfcircle']
+    #     preprocessed_matrix = preprocess_single_matrix(matrix)
 
-        #     matrix = adjust_for_starting_position(matrix)
-        #     matrix = apply_low_pass_filter(matrix)
-        #     return matrix
-# ************************************************************************************************
+    #     # Reshape to match the input shape of the model
+    #     reshaped_matrix = preprocessed_matrix.reshape(1, subsequence_length, matrix.shape[-1])
+
+    #     # Predict the class and get the confidence using the model
+    #     predictions = model.predict(reshaped_matrix)
+    #     class_index = np.argmax(predictions)
+    #     confidence = np.max(predictions)
+
+    #     # Map class index to class name
+    #     predicted_class = class_names[class_index]
+
+    #     return predicted_class, confidence, class_index
+
 
         while not rospy.is_shutdown():
 
@@ -325,6 +320,7 @@ class rolloutRecorder():
 
     def config_display(self, blit):
         plt.close('all')
+        plt.ion()
 
         mpl.rcParams['font.family'] = 'DejaVu Serif'
         plt.rcParams['font.size'] = 8
@@ -332,116 +328,30 @@ class rolloutRecorder():
 
         self.fig = plt.figure(figsize=(16, 8))
         canvas_width, canvas_height = self.fig.canvas.get_width_height()
-        self.ax1 = self.fig.add_subplot(1, 3, 1)
-        self.ax2 = self.fig.add_subplot(1, 3, 2)
-        self.ax0 = self.fig.add_subplot(1, 3, 3)
+        self.ax1 = self.fig.add_subplot(1, 2, 1)
+        self.ax0 = self.fig.add_subplot(1, 2, 2)
         self.ax1.set_yticklabels([])
         self.ax1.set_xticklabels([])
 
         for axis in ['top', 'bottom', 'left', 'right']:
-            self.ax1.spines[axis].set_linewidth(10)
+            self.ax1.spines[axis].set_linewidth(5)
         # obs
-        if display_obs:
-            self.ax3 = self.fig.add_subplot(5, 3, 10)
-            self.ax4 = self.fig.add_subplot(5, 3, 11)
-            self.ax5 = self.fig.add_subplot(5, 3, 12)
-            self.ax6 = self.fig.add_subplot(5, 3, 13)
-            self.ax7 = self.fig.add_subplot(5, 3, 14)
-            self.ax8 = self.fig.add_subplot(5, 3, 15)
-
-            self.ax3.set_xticklabels([]), self.ax4.set_xticklabels(
-                []), self.ax5.set_xticklabels([])
-            self.ax3.set_yticklabels([]), self.ax4.set_yticklabels(
-                []), self.ax5.set_yticklabels([])
-            self.ax6.set_xticklabels([]), self.ax7.set_xticklabels(
-                []), self.ax8.set_xticklabels([])
-            self.ax6.set_yticklabels([]), self.ax7.set_yticklabels(
-                []), self.ax8.set_yticklabels([])
 
         if display_images:
             self.img = self.ax1.imshow(self.I)
 
-        if display_prediction:
-            self.line_pred, = self.ax2.plot(
-                [], linewidth=2, alpha=0.2, color=pred_color)
-            self.ori_pred, = self.ax2.plot(
-                [], linestyle='--', linewidth=1, alpha=0.5, color=pred_color,)
-            self.pred_circle, = self.ax2.plot(
-                [], color=pred_color, marker='o', alpha=0.5, markersize=60, fillstyle='none')
-            self.marker_pred, = self.ax2.plot(
-                [], color=pred_color, alpha=1, marker='o', markersize=2, label='Predicted')
-
-        if display_gt:
-            self.line_gt, = self.ax2.plot(
-                [], color=gt_color, linewidth=2, alpha=0.3)
-            self.marker_gt, = self.ax2.plot(
-                [], color=gt_color, alpha=1, marker='o', markersize=2)
-            self.ori_gt, = self.ax2.plot(
-                [], color=gt_color, alpha=1, linewidth=2, linestyle='--',)
-            self.gt_circle, = self.ax2.plot(
-                [], color=gt_color, marker='o', alpha=0.7, markersize=60, fillstyle='none')
-
-            self.line_gt_px, = self.ax1.plot(
-                [], color=gt_color_px, linewidth=2, alpha=0.4)
-            self.marker_gt_px, = self.ax1.plot(
-                [], color=gt_color_px, alpha=1, marker='o', markersize=2)
-
-        self.goal_plot, = self.ax2.plot(
-            [], color='green', marker='x', alpha=0.8, markersize=6,)
         self.goal_plot_px, = self.ax1.plot(
             [], color='green', marker='x', alpha=0.8, markersize=6,)
 
         if self.ref_flag:
-            self.ref_path, = self.ax2.plot(
-                [], '--g', linewidth=1, alpha=0.4, label='Reference Trajectory')
             self.ref_path_px, = self.ax1.plot(
                 [], '--g', linewidth=1, alpha=0.4, label='Reference Trajectory')
 
-        self.ax2.set_xlim(-85, 85)
-        self.ax2.set_ylim(65, 150)
-        self.ax2.set_xlabel('X (mm)')
-        self.ax2.set_ylabel('Y (mm)')
-        self.ax2.set_aspect('equal', 'box')
-        setgrid(self.ax2)
-
-        if display_obs:
-            one_c = 'navy'
-            two_c = 'lightsteelblue'
-
-            self.angle_plot1, = self.ax3.plot(
-                [], color=one_c, alpha=0.9, linewidth=2)
-            self.angle_plot2, = self.ax6.plot(
-                [], color=two_c, alpha=0.9, linewidth=2)
-            self.load_plt1, = self.ax4.plot(
-                [], color=one_c, alpha=0.9, linewidth=2)
-            self.load_plt2, = self.ax7.plot(
-                [], color=two_c, alpha=0.9, linewidth=2)
-            self.force_plt1, = self.ax5.plot(
-                [], color=one_c, alpha=0.9, linewidth=2, label='Finger 1')
-            self.force_plt2, = self.ax8.plot(
-                [], color=two_c, alpha=0.9, linewidth=2, label='Finger 2')
-
-            setgrid(self.ax3), setgrid(self.ax4), setgrid(self.ax5), setgrid(
-                self.ax6), setgrid(self.ax7), setgrid(self.ax8)
-
-            self.ax3.set_title('Motor angle')
-            self.ax4.set_title('Motor load')
-            self.ax5.set_title('Finger force')
-            # self.ax3.set_ylim(-0.01, 1)
-            # self.ax4.set_ylim(-150, 150)
-            # self.ax5.set_ylim(-100, 400)
-            lines_labels = [ax.get_legend_handles_labels()
-                            for ax in self.fig.axes[2:]]
-            lines, labels = [sum(lol, []) for lol in zip(*lines_labels)]
-            self.fig.legend(lines, labels, loc='lower center', ncol=2)
-
-        self.ax2.legend()
         self.fig.canvas.draw()
 
         if blit:
             # cache the background
             self.axbackground = self.fig.canvas.copy_from_bbox(self.ax1.bbox)
-            self.ax2background = self.fig.canvas.copy_from_bbox(self.ax2.bbox)
             if display_obs:
                 self.ax3background = self.fig.canvas.copy_from_bbox(
                     self.ax3.bbox)
@@ -460,7 +370,7 @@ class rolloutRecorder():
 
         if record:
             # Open an ffmpeg process
-            outf = '/home/curtisbot/catkin_ws/logs'
+            outf = '/home/julius/home/logs'
             cmdstring = ('ffmpeg',
                          '-y', '-r', '10',  # overwrite, 30fps
                          # size of image string
@@ -477,79 +387,63 @@ class rolloutRecorder():
             self.img.set_data(self.I)
 
         if display_prediction:
+            # model = load_model('subsequence75.h5')
+            # with open('scaler.pkl', 'rb') as f:
+            #     scaler = pickle.load(f)
+            self.ax0.clear()
             # ************************************************************************************************
-            matrix = preprocessed_input(self.S)
-            preprocessed_input = np.expand_dims(matrix, axis=0)
-            predictions = self.model.predict(preprocessed_input)
-            predicted_class = np.argmax(predictions)
-            certainty = np.max(predictions)
-            print("Predicted Class:", predicted_class)
-            print("Certainty:", certainty)
-            # Generate some random data for the bar chart
-            categories = predictions.keys()
-            data = predictions.values()
+            # Create 8 random integers for y values
+            y_values = np.random.randint(0, 100, size=8)
 
-            # Create the bar chart within ax0
-            x_positions = np.arange(len(categories))
-            self.ax0.bar(x_positions, data, align='center', color='skyblue')
+            # Create 8 buckets
+            x_values = list(range(1, 9))
 
-            # Set the labels for the x-axis and y-axis
-            self.ax0.set_xticks(x_positions)
-            self.ax0.set_xticklabels(
-                predictions.keys(), rotation=45, ha='right')
-            self.ax0.set_ylabel('Values')
+            # Create labels for the buckets
+            labels = ['Ovular', 'Hexagon', 'Square', 'David', 'Duck', 'Circle', 'Blob', 'Halfcircle']
 
-            # Set the title for ax0
-            self.ax0.set_title('Classification Distribution')
+            self.ax0.bar(x_values, y_values, tick_label=labels, color=['#f51f07', '#f52b07', '#f54307', '#f55607', '#f56207', '#f56e07', '#f57e07', '#f59e07'])
 
-        if display_gt:
+            # Adding some extra settings
+            self.ax0.set_xlabel('Buckets')
+            self.ax0.set_ylabel('Sum of Prediction Confidences')
+            self.ax0.set_title('Live Prediction')
+            self.fig.canvas.draw()
+            plt.pause(.04)
 
-            self.line_gt.set_data(
-                self.object_true_traj[1:-1, 0], self.object_true_traj[1:-1, 1])
-            self.marker_gt.set_data(
-                self.object_true_traj[-1, 0], self.object_true_traj[-1, 1])
+            # self.ax0.tight_layout()
+            # self.ax0.show()
+            # matrix = preprocessed_input(self.S)
+            # preprocessed_input = np.expand_dims(matrix, axis=0)
+            # predictions = self.model.predict(preprocessed_input)
+            # predicted_class = np.argmax(predictions)
+            # certainty = np.max(predictions)
+            # print("Predicted Class:", predicted_class)
+            # print("Certainty:", certainty)
+            # # Generate some random data for the bar chart
+            # categories = predictions.keys()
+            # data = predictions.values()
 
-            self.line_gt_px.set_data(
-                self.object_true_traj_px[1:-1, 0], self.object_true_traj_px[1:-1, 1])
-            self.marker_gt_px.set_data(
-                self.object_true_traj_px[-1, 0], self.object_true_traj_px[-1, 1])
+            # # Create the bar chart within ax0
+            # x_positions = np.arange(len(categories))
+            # self.ax0.bar(x_positions, data, align='center', color='skyblue')
 
-            # arrow1 = mpatches.Arrow(self.object_true_traj[-1, 0], self.object_true_traj[-1, 1], r*np.cos(self.object_true_traj[-1, 2] * np.pi / 180), r*np.sin(self.object_true_traj[-1, 2] * np.pi / 180),width=r/2, color=gt_color)
-            # arrow2 = mpatches.Arrow(self.object_true_traj[-1, 0], self.object_true_traj[-1, 1], r*np.cos((self.object_true_traj[-1, 2]- 270) * np.pi / 180), r*np.sin((self.object_true_traj[-1, 2]-270) * np.pi / 180),width=r/2, color=gt_color)
-            # self.ax2.add_patch(arrow1) # obj.rect
-            # self.ax2.add_patch(arrow2) # obj.rect
+            # # Set the labels for the x-axis and y-axis
+            # self.ax0.set_xticks(x_positions)
+            # self.ax0.set_xticklabels(
+            #     predictions.keys(), rotation=45, ha='right')
+            # self.ax0.set_ylabel('Values')
+
+            # # Set the title for ax0
+            # self.ax0.set_title('Classification Distribution')
 
         if self.goal.any():
             self.goal_plot.set_data(self.goal[0] * 1000, self.goal[1] * 1000)
             if self.ref_flag:
                 self.ref_path.set_data(self.Sref[:, 0], self.Sref[:, 1])
 
-        # if display_prediction:
-            # arrow1 = mpatches.Arrow(self.object_pred_traj[-1, 0], self.object_pred_traj[-1, 1], r*np.cos(self.object_pred_traj[-1, 2] * np.pi / 180), r*np.sin(self.object_pred_traj[-1, 2] * np.pi / 180),width=r/2, color=pred_color, alpha=0.7)
-            # arrow2 = mpatches.Arrow(self.object_pred_traj[-1, 0], self.object_pred_traj[-1, 1], r*np.cos((self.object_pred_traj[-1, 2]- 270) * np.pi / 180), r*np.sin((self.object_pred_traj[-1, 2]-270) * np.pi / 180),width=r/2, color=pred_color, alpha=0.7)
-            # self.ax2.add_patch(arrow1) # obj.rect
-            # self.ax2.add_patch(arrow2) # obj.rect
-
-        # obs
-        if display_obs:
-            self.force_plt1.set_data(
-                range(len(self.obs[1:, 4])), self.obs[1:, 4])
-            self.force_plt2.set_data(
-                range(len(self.obs[1:, 5])),  self.obs[1:, 5])
-
-            self.load_plt1.set_data(
-                range(len(self.obs[1:, 2])), self.obs[1:, 2])
-            self.load_plt2.set_data(
-                range(len(self.obs[1:, 3])), self.obs[1:, 3])
-
-            self.angle_plot1.set_data(
-                range(len(self.obs[1:, 0])), self.obs[1:, 0])
-            self.angle_plot2.set_data(
-                range(len(self.obs[1:, 1])), self.obs[1:, 1])
 
         if blit:
             self.fig.canvas.restore_region(self.axbackground)
-            self.fig.canvas.restore_region(self.ax2background)
 
             if display_obs:
                 self.fig.canvas.restore_region(self.ax3background)
@@ -563,56 +457,15 @@ class rolloutRecorder():
             if display_images:
                 self.ax1.draw_artist(self.img)
 
-            self.ax2.draw_artist(self.line_gt)
-            self.ax2.draw_artist(self.ori_gt)
-            self.ax2.draw_artist(self.gt_circle)
-            self.ax2.draw_artist(self.marker_gt)
-
-            if self.goal.any():
-                self.ax2.draw_artist(self.goal_plot)
-                if self.ref_flag:
-                    self.ax2.draw_artist(self.ref_path)
-
-            if display_prediction:
-                self.ax2.draw_artist(self.line_pred)
-                self.ax2.draw_artist(self.ori_pred)
-                self.ax2.draw_artist(self.pred_circle)
-                self.ax2.draw_artist(self.marker_pred)
-
-            if display_obs:
-                self.ax3.draw_artist(self.angle_plot1)
-                self.ax6.draw_artist(self.angle_plot2)
-                self.ax4.draw_artist(self.load_plt1)
-                self.ax7.draw_artist(self.load_plt2)
-                self.ax5.draw_artist(self.force_plt1)
-                self.ax8.draw_artist(self.force_plt2)
-
             # fill in the axes rectangle
             self.fig.canvas.blit(self.ax1.bbox)
-            self.fig.canvas.blit(self.ax2.bbox)
 
-            if display_obs:
-                self.fig.canvas.blit(self.ax3.bbox)
-                self.fig.canvas.blit(self.ax4.bbox)
-                self.fig.canvas.blit(self.ax5.bbox)
-                self.fig.canvas.blit(self.ax6.bbox)
-                self.fig.canvas.blit(self.ax7.bbox)
-                self.fig.canvas.blit(self.ax8.bbox)
 
         else:
             self.fig.canvas.draw()
 
-        if display_obs:
-            self.ax3.relim(), self.ax4.relim(), self.ax5.relim()
-            self.ax6.relim(), self.ax7.relim(), self.ax8.relim()
-            self.ax3.autoscale(True, 'both', False), self.ax4.autoscale(
-                True, 'both', False), self.ax5.autoscale(True, 'both', False)
-            self.ax6.autoscale(True, 'both', False), self.ax7.autoscale(
-                True, 'both', False), self.ax8.autoscale(True, 'both', False)
 
         self.fig.canvas.flush_events()
-        # plt.pause(0.000000000001)
-        self.ax2.patches = []
 
         if record:
             string = self.fig.canvas.tostring_argb()

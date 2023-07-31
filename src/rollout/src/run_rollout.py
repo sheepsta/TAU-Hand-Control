@@ -24,13 +24,13 @@ path = '/home/julius/TAU-Hand-Control/src/rollout/src/plans/'
 gum = 0
 circle = 0
 rubiks_cube = 0
-duck = 1
+duck = 0
 knife = 0
-xacto_knife = 0
-bottle = 0
+blob = 0
+halfcircle = 0
 broom = 0
 david = 0
-cylinder = 0
+cylinder = 1
 square = 0
 hexagon = 0
 crescent = 0
@@ -130,10 +130,10 @@ if rollout:
         logdir += "broom/"
     elif rubiks_cube:
         logdir += "rubiks_cube/"
-    elif xacto_knife:
-        logdir += "xacto_knife/"
-    elif bottle:
-        logdir += "bottle/"
+    elif blob:
+        logdir += "blob/"
+    elif halfcircle:
+        logdir += "halfcircle/"
     elif circle:
         logdir += "circle/"
     elif david:
@@ -213,10 +213,10 @@ if rollout:
             prefix = "broom"
         elif rubiks_cube:
             prefix = "rubiks_cube"
-        elif xacto_knife:
-            prefix = "xacto_knife"
-        elif bottle:
-            prefix = "bottle"
+        elif blob:
+            prefix = "blob"
+        elif halfcircle:
+            prefix = "halfcircle"
         elif circle:
             prefix = "circle"
         elif david:
