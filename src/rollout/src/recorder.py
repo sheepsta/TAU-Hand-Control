@@ -9,7 +9,7 @@ Author:  Osher Azulay
 # from tensorflow.keras.optimizers import Adam
 # from tensorflow.keras.layers import Conv1D, MaxPooling1D, Flatten, Dense
 # from tensorflow.keras.models import Sequential
-# from keras import load_model
+from keras.models import load_model
 from scipy.signal import butter, filtfilt
 from math import isnan
 from matplotlib.collections import PatchCollection
@@ -35,7 +35,6 @@ import cv2
 import time
 import matplotlib.font_manager as fm
 import matplotlib as mpl
-from scipy.signal import butter, filtfilt
 font_names = [f.name for f in fm.fontManager.ttflist]
 
 # Rebuild the matplotlib font cache
@@ -51,7 +50,7 @@ np.set_printoptions(2)
 
 
 display_images = True
-display_prediction = True
+display_prediction = False
 display_obs = False
 record = False
 display_gt = False
