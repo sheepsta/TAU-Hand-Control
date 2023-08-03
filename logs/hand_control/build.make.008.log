@@ -1,0 +1,22 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _hand_control_generate_messages_check_deps_TargetAngles
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _hand_control_generate_messages_check_deps_plan_for_goal_request
+[  0%] Built target _hand_control_generate_messages_check_deps_RegraspObject
+[  0%] Built target _hand_control_generate_messages_check_deps_observation
+[  0%] Built target _hand_control_generate_messages_check_deps_plan_for_goal_response
+[  0%] Built target _hand_control_generate_messages_check_deps_net_eval
+[  0%] Built target _hand_control_generate_messages_check_deps_ObjOrientation
+[  0%] Built target _hand_control_generate_messages_check_deps_planroll
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _hand_control_generate_messages_check_deps_TargetPos
+[  0%] Built target _hand_control_generate_messages_check_deps_IsDropped
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _hand_control_generate_messages_check_deps_close
+[ 46%] Built target hand_control_generate_messages_eus
+[ 46%] Built target hand_control_generate_messages_cpp
+[ 58%] Built target hand_control_generate_messages_lisp
+[ 77%] Built target hand_control_generate_messages_nodejs
+[100%] Built target hand_control_generate_messages_py
+[100%] Built target hand_control_generate_messages

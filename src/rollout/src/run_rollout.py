@@ -12,6 +12,7 @@ import time
 import glob
 import os
 import rospy
+from model import train_model
 
 rollout_srv = rospy.ServiceProxy('/rollout/rollout', rolloutReqMod)
 
@@ -168,6 +169,7 @@ if rollout:
         Af = A.reshape((-1,))
         Af /= 10
 
+    train_model()
     for j in range(100):
         # conduct j numbers of each rollouts
         rospy.sleep(2)
@@ -253,4 +255,3 @@ if rollout:
         #         os.makedirs(trans)
         #     with open(trans + '/' + file_name + '.pickle', 'wb') as handle:
         #         pickle.dump(transition, handle, protocol=pickle.HIGHEST_PROTOCOL)
-

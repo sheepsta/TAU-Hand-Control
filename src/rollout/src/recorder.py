@@ -35,6 +35,7 @@ import cv2
 import time
 import matplotlib.font_manager as fm
 import matplotlib as mpl
+from model import model_predict
 font_names = [f.name for f in fm.fontManager.ttflist]
 
 # Rebuild the matplotlib font cache
@@ -50,7 +51,7 @@ np.set_printoptions(2)
 
 
 display_images = True
-display_prediction = False
+display_prediction = True
 display_obs = False
 record = False
 display_gt = False
@@ -117,7 +118,7 @@ class rolloutRecorder():
     # launch a service to get state
 
     running = False
-    suc = True
+    suc = True 
     fail = False
     display = True
     ref_flag = False
@@ -386,9 +387,10 @@ class rolloutRecorder():
             self.img.set_data(self.I)
 
         if display_prediction:
-            # model = load_model('subsequence75.h5')
-            # with open('scaler.pkl', 'rb') as f:
-            #     scaler = pickle.load(f)
+            if len(self.S)>0:
+                local_S = np.array(self.S).reshape(-1, 7)
+                local_S[:, :2] = self.A
+                local_S = np.delete(local_S, (2), axis=1)
             self.ax0.clear()
             # ************************************************************************************************
             # Create 8 random integers for y values
